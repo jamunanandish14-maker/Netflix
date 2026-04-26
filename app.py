@@ -8,10 +8,7 @@ model = pickle.load(open("model.pkl", "rb"))
 
 # Try loading scaler
 
-try:
-    scaler = pickle.load(open("scaler.pkl", "rb"))
-except:
-    scaler = None
+
 
 st.title("Customer Churn Prediction")
 
