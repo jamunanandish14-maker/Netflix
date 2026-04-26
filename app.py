@@ -37,7 +37,6 @@ if st.button("Predict"):
     data = np.array([[credit_score, age, tenure, balance,
     products, has_card, active, salary]])
 
-```
 if scaler:
     data = scaler.transform(data)
 
@@ -47,4 +46,3 @@ if result[0] == 1:
     st.error("Customer likely to leave ❌")
 else:
     st.success("Customer will stay ✅")
-```
