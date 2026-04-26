@@ -34,8 +34,8 @@ active = 1 if active == "Yes" else 0
 # ---- PREDICT ----
 
 if st.button("Predict"):
-data = np.array([[credit_score, age, tenure, balance,
-products, has_card, active, salary]])
+    data = np.array([[credit_score, age, tenure, balance,
+    products, has_card, active, salary]])
 
 ```
 if scaler:
